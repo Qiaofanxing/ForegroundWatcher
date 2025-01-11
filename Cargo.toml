@@ -1,0 +1,11 @@
+[package]
+name = "ForegroundWatcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+windows = { version = "0.59.0", features = ["Win32_Foundation", "Win32_UI_WindowsAndMessaging"] }
+sysinfo = "0.33.1"
+chrono = "0.4"
+log = "0.4"
+simplelog = "0.12"
